@@ -8,7 +8,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/styles.css" />
@@ -24,13 +30,14 @@
             <ul class="main-nav">
               <li><a href="#">Home</a></li>
               <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#skills">Skills</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
           </nav>
         </div>
 
         <div class="wrapper-2">
-          <p>
+          <p class="flex-el">
             Hi! I'm a front-end developer who loves responsive design and css. I
             recently finished learning front-end web development at Treehouse
             and i'm excited to put all my skills to use!
@@ -38,7 +45,7 @@
           <img
             src="images/responsive-layout-profile.png"
             alt="My profile picture"
-            class="profile-img"
+            class="profile-img flex-el"
           />
         </div>
       </header>
@@ -130,6 +137,38 @@
           </div>
         </section>
 
+        <section id="skills">
+          <h2>Skills</h2>
+          <div class="card">
+            <img src="images/rsz_skills.jpg" alt="i love to learn" />
+            <div class="card-text">
+              <h3>Skill Set</h3>
+              <ul>
+                <li class="skill">
+                  <ion-icon name="checkbox-outline"></ion-icon>
+                  <p>HTML</p>
+                </li>
+                <li class="skill">
+                  <ion-icon name="checkbox-outline"></ion-icon>
+                  <p>CSS</p>
+                </li>
+                <li class="skill">
+                  <ion-icon name="checkbox-outline"></ion-icon>
+                  <p>Responsive design</p>
+                </li>
+                <li class="skill">
+                  <ion-icon name="checkbox-outline"></ion-icon>
+                  <p>Git</p>
+                </li>
+                <li class="skill">
+                  <ion-icon name="checkbox-outline"></ion-icon>
+                  <p>JavaScript</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
         <section id="contact">
           <h2>Contact</h2>
           <div class="wrapper">
@@ -157,10 +196,21 @@
           <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#Skills">Skills</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
+          <p class="top"><a href="#"> Back to top</a></p>
         </nav>
       </footer>
     </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
